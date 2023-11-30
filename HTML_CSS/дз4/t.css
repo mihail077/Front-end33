@@ -1,0 +1,75 @@
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
+.rectangle:hover {
+    background-color: blue;
+    
+}
+.rectangle2 {
+    width: 200px;
+    height: 100px;
+    margin-top: 25px;
+    background-color: brown;
+}
+.rectangle2:hover {
+    transform: translate(0, 100px);
+}
+.tt {
+animation: 1s changeColor infinite;
+}
+@keyframes changeColor {
+    from {
+        color: black;
+        background-color: white;
+        transform: translate(0);
+    }
+    to {
+        color: red;
+        background-color: black;
+        transform: translate(100px);
+    }
+    
+    /* 0% {
+        
+    }
+    25% {
+        color: red;
+    }
+    50% { 
+        background-color: black;
+    }
+    75% {
+        color: darkmagenta;
+    }
+    100% {
+        color: aqua;
+    } */
+}
+a {
+    margin: 0 500px;
+    font-size: xx-large;
+}
+#cub {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    transition: 3s;
+}
+#cub:hover {
+    background-color: lightgreen;
+    transition: 3s;
+}
+.cub {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 100px;
+}
+.cub:hover {
+    background-color: blue;
+     transform: skew(15deg,15deg); 
+
+
+}
