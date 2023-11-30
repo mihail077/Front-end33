@@ -1,0 +1,12 @@
+.mylist {
+list-style-type: none;
+display: flex;
+}
+
+.mylist li {
+    margin: 15px 10px;
+}
+
+#c {
+     font-size: 30px;
+}
