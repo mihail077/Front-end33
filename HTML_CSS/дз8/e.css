@@ -1,0 +1,128 @@
+header,nav,main,footer,div,li {
+    border: 2px solid red;
+    padding: 5px;
+    background-color: gray;
+}
+ol {
+    list-style-type: none;
+    padding: 0;
+}ol li {
+    margin: 10px auto;
+    background-color: gold;
+}
+div {
+    margin: 10px auto;
+}
+img,video {
+    width: 99%;
+    min-width: 200px;
+}
+.left {
+    background-color: darkorange;
+}
+.bot {
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+@media screen and (min-width:270px) and (max-width:410px){
+    .bot {
+        font-size: 16px;
+    }
+
+}
+@media screen and (min-width:410px) and (max-width:510px){
+    .bot {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (min-width:510px) and (max-width:768px){
+    ol li {
+        display: inline;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    ol li {
+        display: inline;
+        margin: 0 25px;
+    }
+    main {
+        display: flex;
+    }
+    .left {
+        margin: 0;
+        width: 50%;
+    }
+    .right {
+        margin: 0;
+        width: 50%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    ol li {
+        display: inline;
+        margin: 0 40px;
+    }
+    main {
+        display: flex;
+    }
+    .left {
+        margin: 0;
+        width: 50%;
+    }
+    .right {
+        margin: 0;
+        width: 50%;
+    }
+    .f1 {
+        float:left;
+        width: 32%;
+    }
+    .f2 {
+        float: left;
+        width: 32%;
+    }
+    .f3 {
+        float: right;
+        width: 32%;
+    }
+    .bot {
+        margin-bottom: 0;
+        float: left;
+    }
+}
+@media screen and (min-width:1440px) {
+    ol li {
+        display: inline;
+        margin: 0 60px;
+}
+    main {
+        display: flex;
+    }
+    .left {
+        margin: 0;
+        width: 50%;
+        font-size: 27px;
+    }
+    .right {
+        margin: 0;
+        width: 50%;
+    }
+    .f1 {
+        float: left;
+        width: 32%;
+    }
+    .f2 {
+        float: left;
+        width: 32%;
+    }
+    .f3 {
+        float: right;
+        width: 32%;
+    }
+    .bot {
+        margin-bottom: 0;
+        float: left;
+    }
+}
