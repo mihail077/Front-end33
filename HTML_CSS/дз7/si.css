@@ -1,0 +1,110 @@
+.cub {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: yellow;
+    overflow: scroll;
+    
+}
+.cub2 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    
+}
+.cub3 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: blue;
+    overflow: auto;
+}
+.cub4 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    overflow-y: scroll;
+}
+.text {
+    display: inline;
+}
+.t {
+    display: none;
+}
+.tt {
+    visibility: hidden;
+}
+.ttt {
+    visibility: visible;
+    opacity: 50%;
+}
+.tttt {
+    visibility: collapse;
+}
+
+.f {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border: solid;
+    margin: 10px;
+    border-radius: 100%;
+    float: right;
+}
+.f1 {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border: solid;
+    margin: 10px;
+    border-radius: 100%;
+    float: right;
+}
+.f2 {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border: solid;
+    margin: 10px;
+    border-radius: 100%;
+    float: left;
+}
+.f3 {
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border: solid;
+    margin: 10px;
+    border-radius: 100%;
+    float: left;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    position: fixed;
+    
+    
+}
+li {
+    margin: 15px 100px;
+    border: solid 2px;
+    padding: 10px;
+    background-color: darkorange;
+    border-radius: 30%;
+    
+}
+.music {
+    width: 500px;
+    border: dotted 5px green;
+    margin-top: 100px;
+    position: relative;
+    
+}
+.music b {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
