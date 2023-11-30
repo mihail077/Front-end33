@@ -1,0 +1,63 @@
+#ss {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: monospace;
+    text-align: center;
+    line-height: 2em;
+    word-spacing: 10px;
+    color: blueviolet;
+    background-color: chartreuse;
+    word-break: break-all;
+}
+.n {
+    list-style-type: none;
+}
+.n li {
+    display: inline;
+    margin: 25px;
+    padding: 15px 20px;
+    border: 3px solid red;
+    background-color: blueviolet;
+    color: burlywood;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.t h3 {
+    text-align: center;
+}
+.t ol {
+    margin: 0 350px;
+    background-color: chartreuse;
+    color: brown;
+}
+table {
+    margin: 30px;
+}
+table td,table th {
+    padding: 15px;
+}
+thead {
+    background-color: coral;
+    color: cornflowerblue;
+}
+tbody {
+    background-color: blue;
+    color: burlywood;
+}
+tfoot {
+    background-color: red;
+    color: yellow;
+}
+.tt h3 {
+    margin-left: 30px;
+}
+.m h3 {
+    text-align: center;
+}
+td:hover {
+    background-color: aqua;
+}
+td {
+    transition: 1s;
+}
+
