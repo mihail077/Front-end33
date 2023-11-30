@@ -1,0 +1,178 @@
+
+p {
+    padding: 200px;
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; 
+}
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+table {
+    color: brown;
+    border-color: darkblue;
+    border-width: 10px;
+    
+}
+td,th {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: chartreuse;
+}
+th {
+    background-color: darksalmon;
+}
+table {
+    margin: 0 auto;
+}
+ol li {
+    list-style-type: none;
+    display: inline;
+    border: 2px solid;
+    padding: 20px;
+    margin:0 50px;
+    border-radius: 100%;
+    color: white;
+    background-color: gold;
+}
+nav {
+    margin-top: 50px;
+}
+h1 {
+    text-align: center;
+    color: green;
+}
+img {
+    width: 370px;
+    height: 400px;
+    margin: 0 auto;
+}
+video {
+    height: 600px;
+    width: 370px;
+}
+.aa {
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    border: 5px double;
+    margin: 10px;
+    position: absolute;
+    left: 200px;
+    
+}
+.ab {
+    width: 150px;
+    height: 150px;
+    background-color: dodgerblue;
+    border: 5px dotted;
+    margin: 10px;
+    position: absolute;
+    right: 200px;
+}
+.ac {
+    width: 150px;
+    height: 150px;
+    background-color: olive;
+    border: 5px dashed;
+    margin: 10px;
+    position: absolute;
+    left: 650px;
+    top: 850px;
+}
+.ba {
+    width: 250px;
+    height: 150px;
+    background-color: chartreuse;
+    margin: 50px;
+    border: 10px solid;
+    position: relative;
+    top: 200px;
+}
+.bb {
+    width: 250px;
+    height: 150px;
+    background-color: darkmagenta;
+    margin: 50px;
+    border: 10px solid;
+    position: relative;
+    left: 500px;
+    bottom: 200px;
+}
+.bc {
+    width: 250px;
+    height: 150px;
+    background-color: tomato;
+    margin: 50px;
+    border: 10px solid;
+    position: relative;
+    left: 1000px;
+    bottom: 200px;
+}
+.ca {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    border-radius: 100%;
+    border: 5px solid;
+    margin: 25px;
+    position: fixed;
+    z-index: -1;
+}
+.cb {
+    width: 150px;
+    height: 150px;
+    background-color: darkgreen;
+    border-radius: 100%;
+    border: 5px solid;
+    margin: 25px;
+}
+.cc {
+    width: 150px;
+    height: 150px;
+    background-color: darksalmon;
+    border-radius: 100%;
+    border: 5px solid;
+    margin: 25px;
+}
+#text {
+    border: 2px solid red;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: aquamarine;
+}
+.t {
+    border: 2px solid red;
+    margin: 0 100px;
+    background-color: burlywood;
+}
+.tt {
+    border: 2px solid red;
+    margin: 15px;
+background-color: darkkhaki;
+}
+main {
+    background-color: black;
+
+}
+ul li {
+    list-style-type: lower-greek;
+}
+.ll {
+    color: yellow;
+    font-size: 30px;
+    background-color: blue;
+    margin: 0 auto;
+    width: 200px;
+}
+.lll {
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    width: 200px;
+}
+
+
