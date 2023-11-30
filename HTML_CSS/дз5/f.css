@@ -1,0 +1,27 @@
+table td,th {
+    padding: 10px;
+}
+table {
+    width: 300px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+a {
+    margin: 0 500px;
+    font-size: xx-large;
+}
+#mt {
+    margin: 0 350px;
+    font-size: 25px;
+    color: chartreuse;
+}
+table[border="2"] td {
+    background-color: blueviolet;
+}
+table[border="2"] th {
+    background-color: chartreuse;
+}
+table th {
+    color: aliceblue;
+    background-color: black;
+}
