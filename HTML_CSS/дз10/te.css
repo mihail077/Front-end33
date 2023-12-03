@@ -1,0 +1,139 @@
+.ab {
+    height: 250px;
+    width: 900px;
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a {
+    height: 150px;
+    width: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b {
+    height: 75px;
+    width: 500px;
+    background-color: black;
+}
+.abcd {
+    width: 900px;
+    height: 180px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+}
+.a1 {
+    height: 150px;
+    width: 225px;
+    background-color: red;
+}
+.b1 {
+    height: 150px;
+    width: 225px;
+    background-color: darkorange;
+}
+.c1 {
+    height: 150px;
+    width: 225px;
+    background-color: aqua;
+}
+.d1 {
+    height: 150px;
+    width: 225px;
+    background-color: yellow;
+}
+.lcr {
+    width: 900px;
+    height: 350px;
+    display: flex;
+    align-items: end;
+}
+.l {
+    width: 300px;
+    height: 350px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.c {
+    width: 300px;
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    align-items: end;
+}
+.r {
+    width: 300px;
+    height: 350px;
+    background-color: blue;
+    display: flex;
+    align-items: baseline;
+}
+.l1 {
+    height: 220px;
+    width: 100px;
+    background-color: burlywood;
+}
+.l2 {
+    height: 220px;
+    width: 100px;
+    background-color: yellow;
+}
+.l3 {
+    height: 270px;
+    width: 200px;
+    background-color: darkorange;
+    display: flex;
+    align-items: end;
+}
+.c4 {
+    width: 100px;
+    height: 270px;
+    background-color: red;
+}
+.c2 {
+    width: 100px;
+    height: 270px;
+    background-color: yellow;
+    display: flex;
+    align-items: end;
+}
+.c3 {
+    width: 100px;
+    height: 270px;
+    background-color: darkorange;
+}
+.s {
+    width: 50px;
+    height: 220px;
+    background-color: darkorange;
+}
+.m {
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+.ra {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    align-self: flex-end;
+}
+.rb {
+    width: 100px;
+    height: 140px;
+    background-color: yellow;
+    margin-bottom: 30px;
+    align-self:flex-end;
+}
+.rc {
+    width: 100px;
+    height: 140px;
+    background-color: darkorange;
+    align-self: center;
+}
