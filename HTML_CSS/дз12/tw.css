@@ -1,0 +1,79 @@
+.p1 {
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    background-color: silver;
+    border-radius: 10px;
+    font-size: 30px;
+}
+h3 {
+    color: red;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+.radio {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: silver;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.d {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.aa {
+    margin: 0 auto;
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: gold;
+}
+form {
+    border: solid;
+    width: 50%;
+    margin: 30px auto;
+    background-color: gold;
+}
+.p2 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: silver;
+}
+.ot {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: silver;
+}
+.bb {
+
+    border-radius: 10px;
+    width: 70%;
+    font-size: 20px;
+    background-color: silver;
+}
+.p3 {
+    background-color: greenyellow;
+}
+.auto {
+    margin: 10px;
+    padding: 5px;
+}
+.aut {
+    padding: 5px;
+
+}
+#engine {
+    padding: 5px;
+}
+iframe {
+    margin: 10px auto;
+    width: 100%;
+}
