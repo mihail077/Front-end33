@@ -1,0 +1,36 @@
+   
+<div [ngStyle]="{'text-align': 'center', 'background-color': 'lightblue'}">
+
+   <h3>
+        users component, works
+    </h3>
+
+    <div *ngFor='let user of users'>
+        {{user.id}} - {{user.name}} - {{user.username}}
+    </div>
+    <br>
+    <br>
+    <div *ngIf='users'>
+        {{users[3].name}} - used ngIf
+    </div>
+
+    <div [ngSwitch]="rand">
+        <div *ngSwitchCase="1">{{users[rand].username}} : id 1 - used ngSwitch</div>
+        <div *ngSwitchCase="2">{{users[rand].username}} : id 2 - used ngSwitch</div>
+        <div *ngSwitchCase="3">{{users[rand].username}} : id 3 - used ngSwitch</div>
+        <div *ngSwitchCase="4">{{users[rand].username}} : id 4 - used ngSwitch</div>
+        <div *ngSwitchCase="5">{{users[rand].username}} : id 5 - used ngSwitch</div>
+        <div *ngSwitchCase="6">{{users[rand].username}} : id 6 - used ngSwitch</div>
+        <div *ngSwitchCase="7">{{users[rand].username}} : id 7 - used ngSwitch</div>
+        <div *ngSwitchCase="8">{{users[rand].username}} : id 8 - used ngSwitch</div>
+        <div *ngSwitchCase="9">{{users[rand].username}} : id 9 - used ngSwitch</div>
+        <div *ngSwitchCase="10">{{users[rand].username}} : id 10 - used ngSwitch</div>
+    </div>
+
+</div> 
+    
+    
+    
+    
+    
+    

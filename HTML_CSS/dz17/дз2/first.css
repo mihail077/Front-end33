@@ -1,0 +1,26 @@
+#kub {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.kubik {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.k1 {
+    width:50px;
+    background-color: yellow;
+    padding: 100px;
+
+}
+.k2 {
+    width: 45px;
+    background-color: orange;
+    padding: 75px;
+}
+.k3 {
+    width: 75px;
+    background-color: gray;
+    padding: 125px;
+}

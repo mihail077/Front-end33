@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+}
+
+.unit1 {
+  background-size: cover;
+  background-image: url(./assets/1616984372_48-p-baiker-oboi-49.jpg);
+}
+
+.bg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  margin: 16px 0 0 40px;
+}
+
+.nav__list {
+  list-style-type: none;
+}
+.nav__list li {
+  display: inline;
+  margin-right: 40px;
+}
+.nav__list a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #BCBCBC;
+}
+
+h1 {
+  color: #CFA688;
+  font-size: 60px;
+  font-weight: 530;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 20px;
+  font-family: initial;
+}
+
+.num-text {
+  display: flex;
+  justify-content: center;
+}
+
+.num {
+  font-size: 46px;
+  color: #F8F8F8;
+  font-weight: 500;
+}
+
+.text {
+  color: #BCBCBC;
+  font-size: 18px;
+  margin: 3px 0 0 15px;
+}
+
+.but {
+  text-align: center;
+  margin-top: 20px;
+}
+.but button {
+  color: #BCBCBC;
+  font-size: 18px;
+  padding: 10px 30px;
+  background-color: black;
+  border: 0;
+}
+
+.bottom-foto {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-foto .middle img {
+  height: 400px;
+  margin-top: -100px;
+}
+
+.left img {
+  margin: 0 0 -275px 30px;
+}
+
+.right img {
+  margin: 0 30px -275px 0;
+}
+
+.m-text {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.l-text {
+  color: #CFA688;
+  font-size: 44px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  margin: 60px 0 10px;
+}
+
+.s-text {
+  text-align: center;
+  color: #BCBCBC;
+}
+
+.moto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0 80px;
+  height: 280px;
+}
+.pa {
+  font-size: 100px;
+  font-weight: 700;
+  color: white;
+  margin-left: -180px;
+  margin-bottom: -80px;
+  opacity: .04;
+}
+
+.moto2 {
+  text-align: center;
+  color: #CFA688;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.moto2 img {
+  width: 95%;
+}
+
+.moto1 {
+  text-align: center;
+  color: #CFA688;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.moto1 img {
+  width: 90%;
+}
+.pb {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  opacity: .04;
+  margin-left: -150px;
+  margin-bottom: -60px;
+}
+
+.moto3 {
+  text-align: center;
+  color: #CFA688;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.moto3 img {
+  width: 90%;
+}
+.pc {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  opacity: .04;
+  margin-left: -170px;
+  margin-bottom: -90px;
+}
+
+.icon-left {
+  margin-left: 30px;
+}
+
+.icon-right {
+  margin-right: 30px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-left img {
+  margin: 55px 0 0 20px;
+}
+
+.bottom-right img {
+  margin: 55px 20px 0 0;
+}
+
+.bottom-middle {
+  text-align: center;
+  width: 80%;
+}
+.bottom-middle img {
+  width: 80%;
+  height: 65px;
+}/*# sourceMappingURL=tws.css.map */
+.unit2, .unit3 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.basic {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.image .bi {
+  height: 380px;
+} 
+
+.image .si {
+  height: 90px;
+  margin-left: 30px;
+}
+
+.story {
+  width: 330px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 400;
+  color: #CFA688;
+  text-transform: uppercase;
+}
+.title img {
+  height: 40px;
+  margin-left: 30px;
+}
+
+.story h4 {
+  color: #BCBCBC;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+
+.story p {
+  color: #BCBCBC;
+  font-size: 14px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.icon-left1 img {
+  margin-bottom: -290px;
+  margin-left: 30px;
+}
+.icon-right1 img {
+  margin-bottom: -290px;
+  margin-right: 30px;
+}
+
+.back {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 50%;
+  margin-bottom: 25px;
+}
+.back img {
+  color: #BCBCBC;
+}
+ .options {
+  display: grid;
+  height: 120px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ }
+
+ .options p {
+  margin: 5px 0 5px;
+ }
+ .options div {
+  font-size: 14;
+  font-weight: 300;
+  color: #BCBCBC;
+  align-self: self-end;
+ }
+
+ .options .num {
+  font-size: 22px;
+  font-weight: 700;
+  color: #BCBCBC;
+ }
+
+ .unit4 {
+  background-image: url(./assets/2f2e3ec2ae19494c3f286748d74d3c0a.jpg);
+  background-size: cover;
+ }
+ .ride {
+  background-color: rgba(0, 0, 0, 0.9);
+ }
+
+ .ti {
+  display: flex;
+ }
+
+ .tour {
+  width: 40%;
+ }
+
+ .tour h2 {
+  color: #CFA688;
+  font-size: 54px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-left: 15%;
+ }
+ 
+ .tour h3 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 15%;
+  color: #F8F8F8;
+ }
+ .tour span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #BCBCBC;
+  margin-left: 15%;
+ }
+ .tour p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #BCBCBC;
+  width: 60%;
+  margin-bottom: 80px;
+  margin-left: 15%;
+ }
+ .tour h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #BCBCBC;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 15%;
+ }
+
+ .lwm {
+  height: 230px;
+  background-image: url(./assets/Rectangle\ 56.png);
+  background-size: cover;
+  position: relative;
+ }
+ .lwm h4 {
+  position: absolute;
+  top: 20%;
+ }
+ .lwm p {
+  position: absolute;
+  top: 40%;
+ }
+ .bc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+ }
+
+ .itinerary {
+  width: 60%;
+ }
+ .itinerary h5 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #F8F8F8;
+  text-align: center;
+ }
+ .itinerary img[alt="info"] {
+  width: 70%;
+  margin: 75px 100px;
+ }
+  
+ .msp {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .select {
+  text-align: center;
+ }
+
+ .bottom-left1 img {
+  margin: 10px 0 5px 30px
+ }
+ .bottom-right1 img {
+  margin: 10px 30px 5px 0;
+ }
+ .map img {
+  width: 300px;
+ }
+ .select img[alt="select"] {
+  width: 40px;
+  height: 230px;
+ }
+ .photo img,p {
+  width: 220px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #BCBCBC;
+ }
+ .one {
+  font-size: 18px;
+  font-weight: 400;
+  color: #BCBCBC;
+  width: 200px;
+  height: 50px;
+  background-color: #C03C3F;
+  border: none;
+  margin-bottom: -50px;
+  margin-left: 20%;
+ }
+ .two { 
+  font-size: 18px;
+  font-weight: 300;
+  color: #BCBCBC;
+  width: 200px;
+  height: 50px;
+  background: none;
+  border:1px solid #BCBCBC;
+  margin-left: 5%;
+ }
+
+ .unit5 {
+  background-image: url(./assets/unnamed.jpg);
+  background-size: cover;
+ }
+
+ .gallery {
+  background-color: rgba(0, 0, 0, 0.9);
+ }
+
+ .ggg img{
+  width: 100%;
+  margin: 90px 0 70px;
+ }

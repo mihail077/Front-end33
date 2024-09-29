@@ -1,0 +1,39 @@
+.bc h2 {
+  margin: 0 auto;
+  color: #fff;
+  width: 350px;
+}
+.bc hr {
+  color: #fff;
+}
+.bc img {
+  width: 350px;
+}
+.bc div {
+  color: #fff;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.dx {
+  display: flex;
+}
+body {
+  background-color: #000;
+}
+form {
+  border: 2px solid #fff;
+  width: 350px;
+  margin: 0 auto;
+  background-color: #566573;
+}
+.p1 {
+  margin: 5px;
+  padding: 5px;
+}
+.text {
+  color: #fff;
+}
+.centr {
+  margin: 0 auto;
+  width: 350px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator" id="calculator">
+
+    <div class="drag" id="drag">Drag</div>
+
+
+    <input type="text" id="display" disabled>
+    <span>calculator</span>
+    <img src="./assets/png-transparent-computer-icons-history-symbol-previous-button-miscellaneous-angle-text.png" onclick="historyPage()" class="history">
+
+    <div class="button">
+        <button onclick="clearDisplay()">C</button>  
+        <button class="right" onclick="deleteNumber()">&#129092;</button>
+        <img src="./assets/javascript-with-coffee-logo-10.png" alt="" class="js">
+        <br>
+        <button onclick="calculateFunction('sin')">sin</button>
+        <button onclick="calculateFunction('cos')">cos</button>
+        <button onclick="calculateFunction('√')">√</button>
+        <button onclick="calculateFunction('x²')">x²</button>
+        <button onclick="appendValue(1)">1</button>
+        <button onclick="appendValue(2)">2</button>
+        <button onclick="appendValue(3)">3</button>
+        <button onclick="appendValue('*')">*</button>
+        <button onclick="appendValue(4)">4</button>
+        <button onclick="appendValue(5)">5</button>
+        <button onclick="appendValue(6)">6</button>
+        <button onclick="appendValue('/')">/</button>
+        <button onclick="appendValue(7)">7</button>
+        <button onclick="appendValue(8)">8</button>
+        <button onclick="appendValue(9)">9</button>
+        <button onclick="appendValue('+')">+</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="appendValue(0)">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="appendValue('-')">-</button>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

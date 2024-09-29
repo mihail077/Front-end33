@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        td {
+            cursor: pointer;
+            width: 80px;
+            height: 50px;
+        }
+        #toggleDiv {
+            display: none;
+            padding: 20px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+        .active {
+            border: solid 3px black;
+        }
+        #myTextarea {
+            resize: both;
+        }
+
+    </style>
+    
+    <button onclick="sumNumbers()">sum</button>
+    <p id="result"></p>
+    <br>
+
+    <input type="number" id="number1" placeholder="enter first number">
+    <input type="number" id="number2" placeholder="enter second number">
+    <button onclick="sumInputs()">sum of numbers</button>
+    <br>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    
+    <button id="sumParagraphs">sum of paragraphs</button>
+    <div id="resultDiv"></div>
+    <br>
+
+    <input type="text" id="inputText" placeholder="enter string">
+    <button id="sumCharacters">sum of characters</button>
+    <br>
+    <br>
+    
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+    <br>
+    <button id="toggleButton">show / hide div</button>
+    <div id="toggleDiv">DIV</div>
+
+    <br>
+    <br>
+
+    <a href="https://nodejs.org/en">link1</a>
+    <a href="https://www.typescriptlang.org/">link2</a>
+
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td class="td2">1</td>
+            <td class="td2">2</td>
+            <td class="td2">3</td>
+            
+        </tr>
+        <tr>
+            <td class="td2">4</td>
+            <td class="td2">5</td>
+            <td class="td2">6</td>
+            
+        </tr>
+        <tr>
+            <td class="td2">7</td>
+            <td class="td2">8</td>
+            <td class="td2">9</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <td class="td3">1</td>
+            <td class="td3">2</td>
+            <td class="td3">3</td>
+            
+        </tr>
+        <tr>
+            <td class="td3">4</td>
+            <td class="td3">5</td>
+            <td class="td3">6</td>
+            
+        </tr>
+        <tr>
+            <td class="td3">7</td>
+            <td class="td3">8</td>
+            <td class="td3">9</td>
+        </tr>
+    </table>
+    <br>
+    <textarea id="textarea"></textarea>
+    <br>
+
+    <input type="number" id="start" name="start" placeholder="enter first number">
+    <input type="number" id="end" name="end" placeholder="enter second number">
+
+    <button id="button">list of redundant numbers</button>
+
+    <ul id="resultList"></ul>
+    <br>
+
+    <table id="myTable">
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <button onclick="fillTable()">fill table</button>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

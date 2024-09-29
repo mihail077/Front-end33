@@ -1,0 +1,257 @@
+.red-cub {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    display: inline-block;
+    rotate: 45deg;
+    margin-left: 30px;
+}
+
+.ser {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.bot {
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.wt {
+    width: 40%;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.conteiner {
+    margin: 120px auto;
+    width: 80%;
+}
+
+.ddd {
+    width: 40px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.row {
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+@media screen and (min-width:768px) {
+    .row {
+        display: flex;
+    }
+    .b-row {
+        width: 31%;
+    }
+    .b-row-m {
+        width: 31%;
+    }
+}
+
+.b-row {
+    height: 400px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255 255 255);
+    align-items: center;
+    img {
+        width: 70px;
+        margin: 150px 0 20px;
+    }
+}
+
+.b-row-m {
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    img {
+        width: 70px;
+        margin: 20px 0 40px;
+    }
+    a {
+        border-radius: 50%;
+        padding: 7px;
+        margin: 10px;
+        background-color: rgb(80, 49, 169);
+    }  
+}
+
+.pos li {
+    color: #666666;
+    font-size: 14px;
+    list-style-type: none;
+    line-height: 25px; 
+}
+
+.pos {
+    margin-right: 30px;
+}
+
+.b-row a {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    margin: 10px;
+}
+
+.map {
+    margin-top: 100px;
+}
+
+.client {
+    text-align: center;
+    h3 {
+        color: #392080;
+    }
+    h2 {
+        color: white;
+        font-size: 60px;
+        margin-top: 15px;
+    }
+}
+
+.line {
+    background-color: white;
+    height: 1px;
+    width: 100px;
+}
+
+.shuvo a {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin-top: 200px;
+}
+
+.shuvo {
+    display: flex;
+    justify-content: space-around;  
+}
+
+.f-t {
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin-top: 100px;
+    padding:30px;
+    border: 5px solid rgb(108,41,154);
+ p {
+    width: 90%;
+    margin: 10px  auto;
+    line-height: 25px;
+ }   
+
+img {
+    width: 12%;
+    margin-top: -80px;
+}
+h6 {
+    color: rgb(80, 49, 169);
+    font-size: 12px;
+}
+h3 {
+    font-size: 24px;
+}
+}
+
+.three-cub {
+    display: flex;
+    margin: 10px auto;
+    width: 50px;
+    .white {
+        width: 14px;
+        height: 14px;
+        background-color: white;
+        margin: 3px;
+        cursor: pointer;
+    }
+    .violet {
+        width: 10px;
+        height: 10px;
+        border: 1px solid white;
+        background-color: rgb(80, 49, 169);
+        margin: 3px;
+        cursor: pointer;
+    }
+}
+
+#TEAM {
+    margin-bottom: 230px;
+}
+
+.white-footer {
+        height: 370px;
+        background-color: white; 
+        margin-top: 300px;     
+ }
+
+ .violet-footer {
+    // height: 150px;
+    background-color: rgb(80, 49, 169);
+    text-align: center;
+    padding: 40px 0;
+    h2 {
+        color: white;
+        font-size: 50px;
+        font-weight: normal;   
+    }
+    p {
+        color: white;
+    margin-top: -32px;
+    }
+ }
+
+ .folow {
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 15px;
+    padding: 30px 0 60px;
+    margin: 0 auto;
+    margin-top: -450px;
+    margin-bottom: 200px;
+    background-color: white;
+
+    img {
+        width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 3px 3px 5px;
+    }
+    h2 {
+        color: rgb(109, 137, 255);
+        font-size: 50px;
+        font-weight: normal;
+    }
+ }
+
+ .folow img:hover {
+    color: white;
+    background-color: cornflowerblue;
+ }
+
+ @media screen and (min-width:1024px) and (max-width:1440px) {
+    .folow {
+        width: 940px;
+    }
+ } 
+ 
+ @media screen and (min-width:1440px) {
+    .folow {
+        width: 1100px;
+    }
+ }
+ 
+ 

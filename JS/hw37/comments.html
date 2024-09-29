@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+
+    <header>
+        <h1>Comments</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="users.html">Users</a>
+        <a href="posts.html">Posts</a>
+    </nav>
+    <div class="container">
+        <h2>Comments Page</h2>
+        <p>This is the comments page. Here you can find various comments.</p>
+        <div id="coment-list"></div>
+    </div>
+
+    <script src="./coment.js"></script>
+</body>
+</html>

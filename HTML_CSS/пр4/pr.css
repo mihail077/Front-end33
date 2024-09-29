@@ -1,0 +1,47 @@
+header,main,footer,li,div {
+    border: 2px solid red;
+    padding: 5px;
+}
+header,footer {
+    background-color: green;
+}
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+ol li {
+    margin: 10px auto;
+    background-color: lightgreen;
+}
+div {
+    margin: 10px auto;
+}
+.left {
+    color: white;
+    background-color: black;
+}
+img {
+    width: 99%;
+}
+@media screen and (min-width:290px) and (max-width:500px){
+    
+}
+@media screen and (min-width:500px) and (max-width:800px) {
+   ol li {
+    display: inline;
+    margin: 0 10px;
+   } 
+}
+@media screen and (min-width:800px) and (max-width:1400px){
+    ol li {
+        display: inline;
+        margin: 0 50px;
+    }
+    main {
+        display: flex;
+    }
+    div {
+        margin: 0;
+        width: 50%;
+    }
+}

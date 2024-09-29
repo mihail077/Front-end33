@@ -1,0 +1,7 @@
+<h3>comments component</h3>
+
+<div [style]="styleData" *ngFor="let comment of comments">
+    {{comment.id}} - {{comment.email}} - {{comment.body}}
+    <app-comment-details [comment]="comment" (hideComment)="handleHideComment($event)"></app-comment-details> 
+</div>
+

@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 35px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.history-container {
+    width: 80%;
+    max-width: 700px;
+    border: 1px solid; 
+    text-align: center;
+}
+
+#historyList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+     display: flex;
+    justify-content: space-between;
+} 
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+

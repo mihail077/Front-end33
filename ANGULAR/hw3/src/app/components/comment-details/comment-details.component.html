@@ -1,0 +1,11 @@
+<h3>comment-details component</h3>
+ 
+<div *ngIf="isVisible">
+    <p>id: {{ comment.id }}</p>
+    <p>email: {{ comment.email }}</p>
+    <p>body: {{ comment.body }}</p>
+    </div>
+    
+    <button (click)="toggleVisibility()">
+        {{ isVisible ? 'hide data' : 'show data' }}
+    </button> 

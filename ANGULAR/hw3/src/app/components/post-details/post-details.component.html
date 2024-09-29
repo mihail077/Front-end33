@@ -1,0 +1,11 @@
+<h3>post-details component</h3>
+ 
+<div *ngIf="isVisible">
+    <p>id: {{ post.id }}</p>
+    <p>title: {{ post.title }}</p>
+    <p>body: {{ post.body }}</p>
+    </div>
+    
+    <button (click)="toggleVisibility()">
+        {{ isVisible ? 'hide data' : 'show data' }}
+    </button> 

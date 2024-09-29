@@ -1,0 +1,40 @@
+body {
+    background-color: #eceaea;
+}
+h1, h2 {
+    text-align: center;
+}
+.container {
+    margin: 70px auto;
+    width: 99%;
+}
+button {
+    margin-left: 47%;
+    padding: 5px 30px;
+    margin-top: 10px;
+}
+img {
+    width: 300px;
+    height: 150px;
+    margin-left: 38%;
+    margin-bottom: 50px;
+}
+.line {
+    width: 80%;
+    height: 3px;
+    margin: 0 8% 0;
+    border: solid black .5px
+}
+.box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+footer {
+    background-color: #e7e4e4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-content p {
+    margin: 5px 0;
+}

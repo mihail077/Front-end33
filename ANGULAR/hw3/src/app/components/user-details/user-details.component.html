@@ -1,0 +1,11 @@
+<h3>user-details component</h3>
+
+<div *ngIf="isVisible">
+<p>id: {{ user.id }}</p>
+<p>name: {{ user.name }}</p>
+<p>username: {{ user.username }}</p>
+</div>
+
+<button (click)="toggleVisibility()">
+    {{ isVisible ? 'hide data' : 'show data' }}
+</button> 

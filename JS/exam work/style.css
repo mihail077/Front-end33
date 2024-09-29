@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    background-image: url(./assets/1681922937_kartinki-pibig-info-p-matematika-fonovaya-kartinka-arti-pinteres-13.jpg);
+ }
+
+.history {
+    width: 30px;
+    height: 30px;
+    margin-left: 85%;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.calculator {
+    width: 400px;
+    height: 530px;
+    border: 1px solid;
+    background-color: rgb(219, 214, 214);
+    position: absolute;
+}
+
+input {
+    width: 95%;
+    height: 15%;
+    border-radius: 5px;
+    margin: 5px 1.5%;
+    background-color: rgb(147, 207, 231);
+    font-size: 40px;
+}
+
+    .button {
+    width: 95%;
+    height: 350px;
+    margin: 20px 3%;
+} 
+
+button {
+    height: 50px;
+    width: 83px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 20px;
+} 
+
+.js {
+    height: 60px;
+    margin-left: 110px;
+    margin-bottom: -22px;
+}
+
+span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.drag {
+    background: #aaa9a9;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

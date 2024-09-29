@@ -1,0 +1,27 @@
+#root {
+  text-align: center;
+}
+img {
+  width: 100px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+}
+
+span {
+  border-bottom: 2px solid;
+}
+
+.nav {
+  background-color: cadetblue;
+}
+
+.wrap {
+  background-color: rgb(212, 113, 41);
+}
+
+.comp {
+  background-color: burlywood;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #F2F1EF;
+    margin: 0;
+}
+
+* {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+}
+
+.container-b {
+    margin: 0 80px;
+    padding: 40px 0;
+}
+.container-s {
+    margin: 100px 180px;
+}
+
+.orange-red {
+    color: #E94D35 !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+

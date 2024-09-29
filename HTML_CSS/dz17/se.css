@@ -1,0 +1,103 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.hed {
+  border: 4px double blue;
+  padding: 10px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+h4 {
+  text-align: center;
+}
+
+.bio {
+  background-color: yellow;
+}
+.bio .text1 {
+  border: 3px solid gold;
+  background-color: aqua;
+  font-size: 20px;
+  margin: 0 30px;
+}
+.bio .text2 {
+  border: 3px dotted red;
+  background-color: chartreuse;
+  font-size: 25px;
+}
+.bio .text3 {
+  border: 3px dashed sienna;
+  background-color: hotpink;
+  font-size: 10px;
+  margin: 10px;
+}
+
+img {
+  height: 300px;
+}
+
+video {
+  height: 300px;
+}
+
+.pagination {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.rec, .rot, .back, .key, .rectan {
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.rec:hover, .rot:hover, .back:hover, .key:hover, .rectan:hover {
+  background-color: blue;
+}
+
+.rectan {
+  background-color: brown;
+}
+
+.rectan:hover {
+  transform: translate(0, 350px);
+}
+
+.key {
+  background-color: aqua;
+  animation: 2s changeColor infinite;
+}
+
+@keyframes changeColor {
+  from {
+    color: aqua;
+    transform: translate(0);
+  }
+  to {
+    background-color: darkgreen;
+    color: red;
+    transform: translate(200px);
+  }
+}
+.back {
+  background-color: indigo;
+}
+
+.back:hover {
+  background-color: green;
+  transition: 3s;
+}
+
+.rot {
+  background-color: fuchsia;
+}
+
+.rot:hover {
+  background-color: gold;
+  transform: skew(15deg, 15deg);
+}/*# sourceMappingURL=se.css.map */

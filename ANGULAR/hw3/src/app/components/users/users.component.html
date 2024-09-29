@@ -1,0 +1,8 @@
+<h3>users component</h3>
+
+<div [style]="styleData" *ngFor="let user of users">
+    {{user.id}} - {{user.name}} - {{user.username}} 
+    <app-user-details [user]="user" (hideUser)="handleHideUser($event)"></app-user-details> 
+</div>
+ 
+

@@ -1,0 +1,22 @@
+
+<div [ngStyle]="{'text-align': 'center','background-color': 'aqua'}">
+
+    <h3>
+        posts component, works
+    </h3>
+
+    <div *ngFor='let post of posts'>
+        {{post.id}} - {{post.body}}
+    </div>
+    <br>
+    <br>
+    <div *ngFor='let post of posts; let ind = index'>
+        <div *ngIf="ind % 3 === 0">
+            {{post.id}} - {{post.body}}
+        </div>
+    </div>
+
+</div>
+
+
+

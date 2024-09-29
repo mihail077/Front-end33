@@ -1,0 +1,32 @@
+
+
+.header {
+  height: 130px;
+  background-color: rgb(236, 233, 233);
+  text-align: center;
+}
+.content {
+  text-align: center;
+}
+.footer {
+  background-color: rgb(236, 233, 233);
+  text-align: center;
+}
+
+.us {
+  margin: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+}
+
+.green {
+  background-color: forestgreen;
+}
+.red {
+  background-color: tomato;
+}
+

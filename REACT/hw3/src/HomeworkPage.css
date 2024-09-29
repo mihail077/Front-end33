@@ -1,0 +1,33 @@
+
+.homeworkPage {
+    position: relative;
+}
+  
+  .header {
+    background-color: #c7def5;
+    padding: 20px;
+    height: 130px;
+  }
+  
+  .footer {
+    background-color: #dff7d3;
+    padding: 20px;
+    bottom: 0;
+    height: 125px;
+  }
+  
+  .sidebar {
+    background-color: #bec1c4;
+    padding: 20px;
+    width: 25%;
+    height: 320px;
+    position: absolute;
+    right:0;
+  }
+  
+  .content {
+    background-color: #f8c2db;
+    padding: 20px;
+    width: 70%;
+    height: 320px;
+  }
